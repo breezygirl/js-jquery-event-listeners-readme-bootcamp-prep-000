@@ -11,6 +11,10 @@ function frameIt(){
   $('img').addClass('tasty')
 }); 
 
+}
+
+function submitIt(){
+  
   
 }
 $(document).ready(function(){
