@@ -15,7 +15,7 @@ function frameIt(){
 
 function submitIt(){
   
-  
+  alert("")
 }
 $(document).ready(function(){
 
