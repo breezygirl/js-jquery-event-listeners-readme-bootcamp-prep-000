@@ -14,14 +14,14 @@ function frameIt(){
 }
 
 function submitIt(){
-  $('form').on(submit, function(){
+  $('form').on('submit', function(){
   
  alert("Your form is going to be submitted now.");
   })
 }
 
 function pressIt(){
-  $('input').on(keydown, function(keyboardkey){
+  $('input').on('keydown', function(keyboardkey){
     if (keyboardkey.which === 71){
       
       alert ('You have pressed G');
