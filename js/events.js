@@ -19,6 +19,18 @@ function submitIt(){
  alert("Your form is going to be submitted now.");
   })
 }
+
+function pressIt(){
+  $('input').on(keydown, function(keyboardkey){
+    if (keyboardkey.which === 71){
+      
+      alert ('You have pressed G');
+    }
+     
+  })
+  
+}
+
 $(document).ready(function(){
 
 // call functions here
